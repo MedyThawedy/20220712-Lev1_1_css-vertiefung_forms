@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Übung lev1_1: forms</title>
+</head>
+
+<body>
+    <header>
+        <h1>Übung lev1_1: forms</h1>
+    </header>
+    <main>
+        <article>
+            <form action="#">
+                <div class="divName">
+                    <label for="fname">Name<span>*</span></label>
+                    <div>
+                        <input type="text" id="fname" name="fname" placeholder="Vorname">
+                        <input type="text" id="lname" name="lname" placeholder="Nachname">
+                    </div>
+                </div>
+                <div class="divEmail">
+                    <label for="email">Email<span>*</span></label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="divSelectThema">
+                    <label for="selectThema">Thema</label>
+                    <select name="Thema" id="thema">
+                        <option value="marketing">Marketing</option>
+                        <option value="finanz">Finanz</option>
+                        <option value="it">IT</option>
+                    </select>
+                </div>
+                <div class="divTextarea">
+                    <label for="text">Nachricht<span>*</span></label>
+                    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </article>
+    </main>
+</body>
+
+</html>
